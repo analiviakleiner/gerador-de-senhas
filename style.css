@@ -70,6 +70,11 @@ body {
     font-family: var(--roboto-mono);
     font-size: 28px;
 }
+.parametro-senha-botoes{
+display: flex;
+justify-content:  center;
+}
+
 
 .parametro-senha__titulo {
     font-size: 24px;
