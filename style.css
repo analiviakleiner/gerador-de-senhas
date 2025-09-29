@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Press+Start+2P&display=swap');
 
 :root {
-    --branco: #1C1C1C;
-    --cor-de-fundo: #F0F4F8;
-    --fundo-senha: #FFFFFF;
-    --fundo-texto: #E2ECF5;
-    --borda: #3A86FF;
-    --roboto: 'Inter', sans-serif;
-    --roboto-mono: 'Fira Code', monospace;
+    --branco: #F9F9F9;
+    --cor-de-fundo: #FFEBEE;
+    --fundo-senha: #FFCDD2;
+    --fundo-texto: #FF80AB;
+    --borda: #FF4081;
+    --roboto: 'Poppins', sans-serif;
+    --roboto-mono: 'Press Start 2P', monospace;
 }
 
 * {
     font-weight: 400;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,48 +21,55 @@ body {
     font-family: var(--roboto);
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 .titulo-principal {
     font-family: var(--roboto-mono);
-    font-size: 32px;
-    color: #222;
+    font-size: 36px;
+    color: var(--borda);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
 }
 
 .titulo-secundario {
-    font-size: 24px;
-    color: #333;
+    font-size: 26px;
+    color: #FF4081;
+    text-align: center;
+    font-family: var(--roboto);
 }
 
 .conteudo-titulo {
-    text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .conteudo-senha {
-    margin-top: 80px;
+    margin-top: 40px;
     background: var(--fundo-senha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #campo-senha {
     background-color: var(--fundo-senha);
-    border: 2px dashed var(--borda);
+    border: 2px solid var(--borda);
     border-radius: 8px;
     color: var(--branco);
-    color: #111;
     font-family: var(--roboto-mono);
-    font-size: 32px;
+    font-size: 36px;
+    padding: 12px;
     width: 70%;
-    padding: 8px 16px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
 }
 
 #campo-senha:focus {
-    outline: 2px solid var(--borda);
-    background-color: #F7FAFC;
+    outline: none;
+    background-color: #FFEBEE;
+    box-shadow: 0 0 5px 2px rgba(255, 64, 129, 0.5);
 }
 
 .conteudo {
@@ -75,23 +83,30 @@ body {
     margin-top: 32px;
     padding: 24px;
     border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parametro:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .parametro-titulo {
     font-family: var(--roboto-mono);
-    font-size: 28px;
-    color: #2A2A2A;
+    font-size: 32px;
+    color: #FF80AB;
+    text-align: center;
 }
 
 .parametro-senha__titulo {
     font-size: 24px;
-    color: #444;
+    color: #FF4081;
+    margin-bottom: 8px;
 }
 
 .parametro-coluna__senha {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 16px;
 }
 
@@ -103,23 +118,25 @@ body {
 .parametro-senha-botoes {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .parametro-senha__botao {
     background-color: var(--borda);
-    color: white;
+    color: var(--branco);
     border: none;
     padding: 16px 24px;
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 8px;
-    transition: background-color 0.3s;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .parametro-senha__botao:hover {
-    background-color: #265DFF;
+    background-color: #FF79B0;
+    box-shadow: 0 8px 15px rgba(255, 64, 129, 0.3);
 }
 
 .parametro-senha__texto {
@@ -128,13 +145,13 @@ body {
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 20px;
-    background-color: #fff;
+    background-color: #FFEBEE;
     border-radius: 8px;
 }
 
 label {
     font-size: 18px;
-    color: #2C2C2C;
+    color: #333;
 }
 
 .checkbox {
@@ -148,7 +165,7 @@ label {
     background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
 }
 
@@ -156,7 +173,7 @@ label {
     height: 30px;
     position: relative;
     bottom: 30px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .fraca {
@@ -165,12 +182,12 @@ label {
 }
 
 .media {
-    background-color: #FFD60A;
+    background-color: #FFEB3B;
     width: 50%;
 }
 
 .forte {
-    background-color: #06D6A0;
+    background-color: #00E676;
     width: 100%;
 }
 
@@ -179,6 +196,7 @@ label {
     justify-content: space-between;
     color: #555;
     font-size: 16px;
+    text-align: center;
 }
 
 
