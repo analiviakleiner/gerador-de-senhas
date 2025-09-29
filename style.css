@@ -1,3 +1,230 @@
+https://youtu.be/yvDEiMBN9f0
+20250928 MENSAGEM CHEFE LUCIANA
+Vídeo do YouTube • ‪5 minutos‬
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 25 de ago.25 de ago. (editado: 22 de set.)
+códigos da aula atualização 01/09
+style.css.txt
+Texto
+script.js.txt
+Texto
+index.html.txt
+Texto
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 4 de ago.4 de ago.
+Slide da apresentação do desafio da Maratona, Modelo para editar.
+Cópia de Maratona Tech _ Fase 1 _ Modelo de apresentação.pptx
+Microsoft PowerPoint
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 4 de ago.4 de ago.
+Material do Estudante. Concentre agora no profissionais que resolverá o problema.
+Maratona Tech 2025 - Material do Estudante.pdf
+PDF
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 7 de jul.7 de jul. (editado: 7 de jul.)
+Códigos iniciais gerador de senhas
+
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="conteudo">
+        <div class="conteudo-titulo">
+            <img src="unlock.svg" alt="cadeado fechado">
+            <h2 class="titulo-principal">Gerador de senhas</h2>
+            <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+        </div>
+        <div class="conteudo-senha">
+            <label for="senha">Senha</label>
+            <input name="senha" type="text" id="campo-senha">
+        </div>
+        <div class="parametro">
+            <h3 class="parametro-titulo">Personalize sua senha</h3>
+            <div class="parametro-coluna__senha">
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Número de caracteres</h4>
+                    <div class="parametro-senha-botoes">
+                        <button class="parametro-senha__botao">-</button>
+                        <p class="parametro-senha__texto">12</p>
+                        <button class="parametro-senha__botao">+</button>
+                    </div>
+                </div>                
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Características da senha</h4>
+                </div>
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Força da senha</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+Exibindo unlock.svg
+unlock.svg
+style.txt
+Texto
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 30 de jun.30 de jun.
+Códigos iniciais index e style e imagem para copiar
+https://github.com/alura-cursos/js-gerador-senha/tree/aula-3
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 23 de jun.23 de jun.
+KAHOOT 2.0 PONTOS NA PRIMEIRA AVALIAÇÃO
+https://kahoot.it/challenge/07223400?challenge-id=479acffc-5dd1-4040-996a-70423c670595_1750684518429
+KAHOOT 1.0 PONTO NA SEGUNDA AVALIAÇÃO
+https://kahoot.it/challenge/04057946?challenge-id=479acffc-5dd1-4040-996a-70423c670595_1750684410536
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 16 de jun.16 de jun.
+Link do kahoot https://kahoot.it/challenge/06158807?challenge-id=479acffc-5dd1-4040-996a-70423c670595_1750080524490
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 2 de jun.2 de jun. (editado: 9 de jun.)
+Código script.js  finalizado
+
+//criação das constantes para manipular os elementos HTML
+
+const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+//lista de perguntas com os objetos(itens) e seus atributos:enunciado, e lista de alternativas
+//com os atributos texto e afirmação
+const perguntas = [
+    {
+        enunciado: "Qual a importância do 2PAC na cultura de plantações e ervas medicinais indigenas?",
+        alternativas: [
+            {
+            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
+            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            },
+            {
+            texto: "Alternativa2",
+            afirmacao: "afirmacao1"
+            },
+        ]
+    },
+    {
+        enunciado: "Pergunta 2",
+        alternativas: [
+            {
+            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
+            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            },
+            {
+            texto: "Alternativa2",
+            afirmacao: "afirmacao1"
+            },
+        ]
+    },
+    {
+        enunciado: "Pergunta 3",
+        alternativas: [
+            {
+            texto: "Trazer dignidade e expandir a visibilidade cultural  afro-americana.",
+            afirmacao: "O 2PAC foi fundamental para a cultura afro-americana. "
+            },
+            {
+            texto: "Alternativa2",
+            afirmacao: "afirmacao1"
+            },
+        ]
+    },
+
+];//criação das variáveis atual(que percorrerá os itens da lista de perguntas)
+// perguntaAtual(que guardará a pergunta atual que será interagida)
+//historiaFinal(que inicia vazia e depois guardará os textos da resposta selecionada)
+
+let atual = 0;
+let perguntaAtual;
+let historiaFinal = "";//funcao que mostrará cada pergunta até que apareça encerre a lista e mostrará o resumo da I.A.
+
+function mostraPergunta(){
+    if (atual >= perguntas.length){
+        mostraResultado();
+        return;
+    }
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
+    textoResultado.textContent = "";
+//execução da função que mostrará as alternativas
+    mostraAlternativa();
+}//funcao que mostrará as alternativas do objeto selecionado
+
+function mostraAlternativa(){
+    for(const alternativa of perguntaAtual.alternativas){
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = alternativa.texto;
+//execução da função SETA => que após o evento de clique selecionada a resposta da alternativa
+        botaoAlternativa.addEventListener("click",()=>respostaSelecionada(alternativa))
+        caixaAlternativas.appendChild(botaoAlternativa);
+   
+}
+}//função que junta todas as afirmações das alternativas clicadas.
+
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacao = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacao + " ";
+    atual++;
+//execução da função que mostra a pergunta
+    mostraPergunta();
+
+}//função que mostrará o resultado final 
+
+function mostraResultado(){
+    caixaPerguntas.textContent = "Conclusão...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+
+}//execução da função que mostrará a pergunta e suas alternativas
+
+mostraPergunta();
+Adicionar comentário para a turma...
+
+Postada por ROMULO JORGE LEITE PENA
+ROMULO JORGE LEITE PENA
+Criado em: 26 de mai.26 de mai. (editado: 26 de mai.)
+Link do braistorm
+https://docs.google.com/presentation/d/1E0AhHXWerT5wbqFz_g2btH6Xnzx6dDTg7LcgqlYQdhM/edit?slide=id.g2e005fe4d84_0_0#slide=id.g2e005fe4d84_0_0
+Adicionar comentário para a turma...
+
+Mural
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
@@ -12,15 +239,12 @@
 
 * {
     font-weight: 400;
-    box-sizing: border-box;
 }
 
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
-    margin: 0;
-    padding: 0;
 }
 
 .titulo-principal {
@@ -42,9 +266,6 @@ body {
     background: var(--fundo-senha);
     padding: 24px;
     border-bottom: 6px solid var(--borda);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #campo-senha {
@@ -53,9 +274,7 @@ body {
     color: var(--branco);
     font-family: var(--roboto-mono);
     font-size: 40px;
-    width: 100%;
-    text-align: center;
-    cursor: default;
+    width: 70%;
 }
 
 #campo-senha:focus {
@@ -65,7 +284,6 @@ body {
 .conteudo {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 16px;
 }
 
 .parametro {
@@ -78,77 +296,65 @@ body {
 .parametro-titulo {
     font-family: var(--roboto-mono);
     font-size: 28px;
-    margin-bottom: 24px;
 }
 
 .parametro-senha__titulo {
     font-size: 24px;
-    margin-bottom: 12px;
 }
 
 .parametro-coluna__senha {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 32px;
 }
 
 .parametro-senha {
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .parametro-senha-botoes {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 12px;
 }
 
 .parametro-senha__botao {
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
-    padding: 16px 24px;
+    padding: 24px;
     font-size: 24px;
     cursor: pointer;
 }
 
 .parametro-senha__texto {
-    padding: 16px;
+    padding: 24px;
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
-    min-width: 40px;
-    text-align: center;
 }
 
 label {
     font-size: 20px;
-    margin-right: 16px;
 }
 
 .checkbox {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    margin-right: 8px;
 }
 
 .barra {
     background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
-    margin-top: 12px;
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
 }
 
 .forca {
-    height: 100%;
-    transition: width 0.3s ease, background-color 0.3s ease;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
 }
 
 .fraca {
@@ -169,17 +375,11 @@ label {
 .parametro-senha-textos {
     display: flex;
     justify-content: space-between;
-    margin-top: 8px;
-    font-size: 16px;
-    opacity: 0.8;
 }
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
         flex-direction: row;
-    }
-
-    .parametro-senha {
-        width: 30%;
     }
 }
